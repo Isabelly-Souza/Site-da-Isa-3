@@ -1,0 +1,121 @@
+/* INDEX CSS */
+@font-face {
+    font-family: 'título';
+    src: url(../fontes/Saturday\ Bright.ttf);
+}
+@font-face {
+    font-family: 'texto';
+    src: url(../fontes/Louis\ George\ Cafe.ttf);
+}
+.box{
+    background-color: gainsboro;
+    background-image: url('../imagens/tela\ de\ fundo.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.menu{
+    background-color: lightpink;
+    height: 60px;
+    width: 730px;
+    transition: 1s ease;
+}
+.menu:hover{
+    height: 90px;
+    width: 930px;
+    padding-top: 10px;
+}
+.título{
+    color: crimson;
+    font-family: 'título';
+    font-size: 30px;
+    transition: 1.25s ease;
+}
+.título:hover{
+    color: whitesmoke;
+    font-size: 40px;
+}
+.text_menu{
+    font-family: 'texto';
+    color: whitesmoke;  
+    transition: color 1.25s ease;
+}
+.text_menu:hover{
+    color: crimson;
+}
+.frase{
+    color: rgba(0, 0, 0, 0.851);
+    font-family: 'texto';
+    height: 250px;
+}
+.card_style_zoom{
+    height: 380px;
+    color: rgba(0, 0, 0, 0);
+    background-size: 100%;
+    transition: 2s ease-in;
+}
+.card_style_zoom:hover{
+    color: black;
+    background-size: 120%;
+}
+.card_style{
+    color: rgba(0, 0, 0, 0);
+    font-family: 'texto';
+    width: 400px;
+    transition: 2s ease;
+}
+.card_style:hover{
+    color: crimson;
+    width: 450px;
+}
+.footer{
+    background-color: lightpink;
+    color: crimson;
+    font-family: 'título';
+    height: 150px;
+}
+/* MATRICULE-SE CSS */
+.formulário{
+    background-color: rgba(255, 182, 193, 0.526);
+    height: 1100px;
+}
+.form_título{
+    font-family: 'texto';
+    color: crimson;
+}
+.label_form{
+    font-family: 'texto';
+    color: white;
+    background-color: rgba(220, 20, 60, 0.689);
+    height: 70px;
+
+}
+.text-area_form{
+    font-family: 'tecto';
+    color: rgba(0, 0, 0, 0.807);
+    height: 70px;
+}
+.opções{
+    font-family: 'texto';
+    color: rgba(0, 0, 0, 0.641);
+}
+.enviar{
+    font-family: 'texto';
+    color: white ;
+    background-color: crimson;
+}
+/* AULAS */
+.table_título{
+    font-family: 'texto';
+    color: crimson;
+    height: 150px;
+}
+.tabela{
+    background-color: crimson;
+    font-family: 'texto';
+}
+/* SOBRE */
+.sobre_título{
+    color: crimson;
+}
